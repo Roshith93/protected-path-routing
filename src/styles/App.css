@@ -1,0 +1,25 @@
+.App {
+  padding-top: 50px;
+}
+.container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center
+}
+
+.container li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.container a {
+  text-decoration: none;
+}
+
+.container a:hover,.container a:active,.container a.active {
+  color: orange
+}
+
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css');
